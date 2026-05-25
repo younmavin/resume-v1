@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.vue-devtools__anchor {
+  display: none;
+}
+
+.marker {
+  display: inline;
+  box-shadow: inset 0 -10px 0 rgba(157, 195, 255, 0.6509803922);
+  /*-10px은 highlight의 두께*/
+  color: #222 !important;
+}
+
+.mb-none {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=common.css.map */
