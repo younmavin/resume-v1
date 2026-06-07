@@ -1,4 +1,4 @@
-url: 
+url: https://resume-v1-alpha-eight.vercel.app
 
 1.vue 프레임워크를 사용하여 이력서+포트폴리오 웹사이트 코딩
 
