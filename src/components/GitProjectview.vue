@@ -13,11 +13,7 @@ function formatDate(dateStr) {
 onMounted(async () => {
   loading.value = true
   try {
-    const res = await fetch(`https://api.github.com/users/${import.meta.env.VITE_GITHUB_USERNAME}/repos?sort=updated&per_page=30`, {
-      headers: {
-        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
-      },
-    })
+    const res = await fetch('https://api.github.com/users/younmavin/repos?sort=updated&per_page=30')
     if (!res.ok) throw new Error(`GitHub API error: ${res.status}`)
     repos.value = await res.json()
   } catch (e) {

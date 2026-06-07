@@ -1,6 +1,6 @@
 <script setup>
 import Project from '@/components/ProjectView.vue'
-import GitProject from '@/components/GitProjectView.vue'
+import GitProject from '@/components/GitProjectview.vue'
 </script>
 
 <template>
