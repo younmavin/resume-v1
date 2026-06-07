@@ -1,4 +1,4 @@
-url: https://ddw6229.dothome.co.kr
+url: 
 
 1.vue 프레임워크를 사용하여 이력서+포트폴리오 웹사이트 코딩
 
